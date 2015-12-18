@@ -13,8 +13,19 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="0mm"
+        android:layout_marginRight="-36mm"
         android:text="@string/button_send"
         android:onClick="sendMessage"/>
+    <Button
+        android:layout_marginTop="40mm"
+        android:layout_marginRight="22mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="control"
+        android:onClick="otherMessage"
+        />
+
 
 
 </LinearLayout>

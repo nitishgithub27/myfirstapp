@@ -19,6 +19,12 @@ public class MyActivity extends ActionBarActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+    public void otherMessage(View view)
+    {
+        Intent intent = new Intent(this, DisplayMessage2Activity.class);
+        startActivity(intent);
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
